@@ -2,10 +2,10 @@
 
 const videos = {
     quiensomos: "/img/carrousel/Ca3.jpeg",
-    sanRoman: "/videos/sanRoman.mp4",
-    Corriendo: "/videos/corriendo.mp4",
-    CantoF: "/videos/cantoF.mp4",
-    caballito: "/videos/caballito.mp4"
+    sanRoman: "/videos/sanRomanOpt.mp4",
+    Corriendo: "/videos/corriendoOpt.mp4",
+    CantoF: "/videos/cantoFOpt.mp4",
+    caballito: "/videos/caballitoOpt.mp4"
 }
 export const Galeria = () => {
     return (
