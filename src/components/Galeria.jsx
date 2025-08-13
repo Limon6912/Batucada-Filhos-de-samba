@@ -1,0 +1,78 @@
+
+
+const videos = {
+    quiensomos: "/img/carrousel/Ca3.jpeg",
+    sanRoman: "/videos/sanRoman.mp4",
+    Corriendo: "/videos/corriendo.mp4",
+    CantoF: "/videos/cantoF.mp4",
+    caballito: "/videos/caballito.mp4"
+}
+export const Galeria = () => {
+    return (
+        <div className="grid grid-cols-3 lg:grid-cols-4 grid-rows-2 md:grid-rows-2 gap-2 overflow-hidden w-full max-h-[1200px] aspect-square  m-auto  ">
+            <div className="overflow-hidden rounded-sm   col-span-2">
+                <video
+                    controls
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    src={videos.Corriendo}
+                    alt="Foto grupal de la batucada F.D.S"
+                    className="w-full h-full object-cover aspect-square transition-transform duration-500 "
+                />
+            </div>
+
+            <div className="overflow-hidden rounded-sm ">
+                <video
+                    controls
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    src={videos.sanRoman}
+                    alt="Foto grupal de la batucada F.D.S"
+                    className="w-full h-full object-cover aspect-square transition-transform duration-500 "
+
+
+                />
+            </div>
+            <div className="overflow-hidden rounded-sm row-span-2 hidden lg:block">
+                <video
+                    controls
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    src={videos.CantoF}
+                    alt="Foto grupal de la batucada F.D.S"
+                    className="w-full h-full object-cover aspect-square transition-transform duration-500 "
+                />
+            </div>
+            <div className="overflow-hidden rounded-sm   hidden lg:block">
+                <img
+                    src={videos.quiensomos}
+                    alt="Foto grupal de la batucada F.D.S"
+                    className="w-full h-full object-cover aspect-square transition-transform duration-500 hover:scale-110"
+                />
+            </div>
+            <div className="overflow-hidden rounded-sm  col-span-3 lg:col-span-2 ">
+                <video
+                    controls
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    src={videos.caballito}
+                    alt="Foto grupal de la batucada F.D.S"
+                    className="w-full h-full object-cover transition-transform duration-500 "
+                />
+            </div>
+
+
+        </div>
+
+    )
+}
+
+export default Galeria
