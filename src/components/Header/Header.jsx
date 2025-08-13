@@ -5,7 +5,7 @@ import { LogoConNombre } from './LogoConNombre.jsx'
 
 const videos = {
 
-    videoFondo: "/videos/headerFondo.mp4"
+    videoFondo: "/videos/headerFondoOpti.mp4"
 
 }
 
