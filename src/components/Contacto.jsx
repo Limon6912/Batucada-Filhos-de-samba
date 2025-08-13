@@ -17,7 +17,7 @@ export const Contacto = () => {
                             autoPlay
                             muted
                             loop
-                            playsInline src="/videos/cantoFOpc.mp4" alt="" className="w-full h-full object-cover" />
+                            playsInline src="/videos/cantoFOpt.mp4" alt="" className="w-full h-full object-cover" />
                     </div>
                     <div className="col-span-2 rounded-sm overflow-hidden ">
                         <img src="/img/carrousel/Ca1.jpeg" alt="foto grupal de la batucada" className="w-full h-full object-cover" />
