@@ -1,6 +1,5 @@
-import zanqueroL from '../assets/Logan/zanqueroL.jpeg'
-import zanqueroR from '../assets/Logan/zanqueroR.jpeg'
-import Ca4 from '../assets/quiensomos2.jpeg'
+import { imagenes } from '../components/Imagenes.jsx'
+
 
 export const Logan = () => {
     return (
@@ -8,10 +7,10 @@ export const Logan = () => {
         <div className='flex relative justify-center items-end h-[700px] w-[95%] lg:w-full mx-auto my-30 '>
             <div className='absolute flex flex-row justify-between w-full gap-6 top-0'>
                 <div className='h-125 sm:w-full max-w-[80%] overflow-hidden hidden sm:block  '>
-                    <img src={Ca4} alt="imagen de zanquero " className='w-full h-full object-cover rounded-sm scale-130 hover:scale-140 transition-transform duration-500' />
+                    <img src={imagenes.img7} alt="imagen de zanquero " className='w-full h-full object-cover rounded-sm scale-130 hover:scale-140 transition-transform duration-500' />
                 </div>
                 <div className='h-100 w-full overflow-hidden '>
-                    <img src={zanqueroL} alt="" className='w-full h-full object-cover rounded-sm transition-transform duration-500 hover:scale-110' />
+                    <img src={imagenes.zanqueroL} alt="" className='w-full h-full object-cover rounded-sm transition-transform duration-500 hover:scale-110 ' />
                 </div>
 
 
@@ -26,7 +25,7 @@ export const Logan = () => {
                 </div>
 
                 <div className='w-25 h-25 z-50 top-[-50px] absolute rounded-full overflow-hidden  animate-bounce animate-infinite animate-duration-[3000ms] animate-ease-linear'>
-                    <img src="/img/silueta2.ico" alt="" className='w-full h-full object-cover ' />
+                    <img src={imagenes.bufon} alt="" className='w-full h-full object-cover ' />
                 </div>
 
 

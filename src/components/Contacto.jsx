@@ -1,4 +1,4 @@
-import { videos } from '../components/Imagenes.jsx'
+import { videos, imagenes } from '../components/Imagenes.jsx'
 
 export const Contacto = () => {
     return (
@@ -20,11 +20,11 @@ export const Contacto = () => {
                             playsInline src={videos.CantoF} alt="" className="w-full h-full object-cover"
                         />
                     </div>
-                    <div className="col-span-2 rounded-sm overflow-hidden ">
-                        <img src="/img/carrousel/Ca1.jpeg" alt="foto grupal de la batucada" className="w-full h-full object-cover" />
+                    <div className="col-span-2 rounded-sm overflow-hidden  ">
+                        <img src={imagenes.img1} alt="foto grupal de la batucada" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
                     </div>
-                    <div className="col-span-2 row-span-2 rounded-sm overflow-hidden bg-gray-600">
-                        <img src="/img/carrousel/Ca2.png" alt="" className="w-full h-full object-cover" />
+                    <div className="  col-span-2 row-span-2 rounded-sm  bg-gray-600 overflow-hidden">
+                        <img src={imagenes.img2} alt="" className=" hover:scale-110 w-full h-full object-cover transition-transform duration-500 " />
                     </div>
 
                 </div>
