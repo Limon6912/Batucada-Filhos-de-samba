@@ -6,10 +6,10 @@ export const Logan = () => {
 
         <div className='flex relative justify-center items-end h-[700px] w-[95%] lg:w-full mx-auto my-30 '>
             <div className='absolute flex flex-row justify-between w-full gap-6 top-0'>
-                <div className='h-125 sm:w-full max-w-[80%] overflow-hidden hidden sm:block  '>
-                    <img src={imagenes.img7} alt="imagen de zanquero " className='w-full h-full object-cover rounded-sm scale-130 hover:scale-140 transition-transform duration-500' />
+                <div className='h-125 sm:w-full max-w-[80%] overflow-hidden hidden rounded-sm sm:block  '>
+                    <img src={imagenes.img7} alt="imagen de zanquero " className='w-full h-full object-cover scale-130 hover:scale-140 transition-transform duration-500' />
                 </div>
-                <div className='h-100 w-full overflow-hidden '>
+                <div className='h-100 w-full overflow-hidden'>
                     <img src={imagenes.zanqueroL} alt="" className='w-full h-full object-cover rounded-sm transition-transform duration-500 hover:scale-110 ' />
                 </div>
 
