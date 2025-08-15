@@ -47,4 +47,5 @@
     url("/fonts/Nunito-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
-  font-display: s
+  font-display: swap;
+}
