@@ -2,12 +2,8 @@
 
 
 import { LogoConNombre } from './LogoConNombre.jsx'
+import { videos } from '../Imagenes.jsx'
 
-const videos = {
-
-    videoFondo: "/videos/videosOpt/headerFondo.mp4"
-
-}
 
 export const Header = () => {
     return (

@@ -10,11 +10,11 @@ export const Card = () => {
           </div> */}
                     <div className="p-6">
                         <div className="font-medium text-xl">{paquete.titulo}</div>
-                        <ul className="font-light text-md">
+                        <ol className="font-light text-md">
                             {paquete.description.map((linea, idx) => (
                                 <li key={idx}>{linea}</li>
                             ))}
-                        </ul>
+                        </ol>
                     </div>
                 </div>
             ))}

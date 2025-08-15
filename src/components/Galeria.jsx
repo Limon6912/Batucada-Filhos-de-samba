@@ -1,12 +1,6 @@
 
+import { videos } from '../components/Imagenes.jsx'
 
-const videos = {
-    quiensomos: "/img/carrousel/Ca3.jpeg",
-    sanRoman: "videos/videosOpt/sanRoman.mp4",
-    Corriendo: "videos/videosOpt/corriendo.mp4",
-    CantoF: "videos/videosOpt/cantoF.mp4",
-    caballito: "videos/videosOpt/caballito.mp4"
-}
 export const Galeria = () => {
     return (
         <div className="grid grid-cols-3 lg:grid-cols-4 grid-rows-2 md:grid-rows-2 gap-2 overflow-hidden w-full max-h-[1200px] aspect-square  m-auto  ">
