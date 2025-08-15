@@ -15,6 +15,7 @@ export const Galeria = () => {
                     controls
                     autoPlay
                     muted
+                    preload='none'
                     loop
                     playsInline
                     src={videos.Corriendo}
@@ -29,6 +30,7 @@ export const Galeria = () => {
                     autoPlay
                     muted
                     loop
+                    preload='none'
                     playsInline
                     src={videos.sanRoman}
                     alt="Foto grupal de la batucada F.D.S"
@@ -43,6 +45,7 @@ export const Galeria = () => {
                     autoPlay
                     muted
                     loop
+                    preload='none'
                     playsInline
                     src={videos.CantoF}
                     alt="Foto grupal de la batucada F.D.S"
@@ -62,6 +65,7 @@ export const Galeria = () => {
                     autoPlay
                     muted
                     loop
+                    preload='none'
                     playsInline
                     src={videos.caballito}
                     alt="Foto grupal de la batucada F.D.S"

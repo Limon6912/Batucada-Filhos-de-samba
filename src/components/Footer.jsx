@@ -2,8 +2,8 @@
 export const Footer = () => {
     return (
         <footer className="  bg-neutral-950 ">
-            <section className="w-full  max-w-[1000px] m-auto flex justify-between flex-col sm:flex-row items-center py-20 ">
-                <div>
+            <section className="w-full  max-w-[1000px] m-auto flex justify-between flex-col sm:flex-row items-center py-20 list-none">
+                <div className="p-3">
                     <h3>Contacto</h3>
                     <lu>
 
