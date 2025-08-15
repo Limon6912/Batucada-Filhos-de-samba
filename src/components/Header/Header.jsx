@@ -18,7 +18,6 @@ export const Header = () => {
                 autoPlay
                 muted
                 loop
-
                 playsInline
                 className="w-full h-[75vh] object-cover object-center blur-sm scale-110"
             >

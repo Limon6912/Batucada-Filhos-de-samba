@@ -22,7 +22,7 @@ export const Contacto = () => {
                     <div className="col-span-2 rounded-sm overflow-hidden ">
                         <img src="/img/carrousel/Ca1.jpeg" alt="foto grupal de la batucada" className="w-full h-full object-cover" />
                     </div>
-                    <div className="col-span-2 row-span-2 rounded-sm overflow-hidden bg-neutral-950">
+                    <div className="col-span-2 row-span-2 rounded-sm overflow-hidden bg-gray-600">
                         <img src="/img/carrousel/Ca2.png" alt="" className="w-full h-full object-cover" />
                     </div>
 

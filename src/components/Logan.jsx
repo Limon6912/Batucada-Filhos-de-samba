@@ -22,7 +22,7 @@ export const Logan = () => {
                     <h2 className='text-4xl pb-8 font-medium'>¡llevamos la alegria hasta tu <samp className='text-[var(--color-azul)]'>evento</samp>!</h2>
                     <p className='text-lg mb-8'>Con experiencia y dedicación, garantizamos el mejor ambiente para tus eventos sociales y culturales.</p>
 
-                    <a href="logan" className='text-[var(--color-amarillo)]'>Ver paquetes</a>
+                    <a href="logan" className='text-[var(--color-amarillo)]'>¡Reserva tu evento!</a>
                 </div>
 
                 <div className='w-25 h-25 z-50 top-[-50px] absolute rounded-full overflow-hidden  animate-bounce animate-infinite animate-duration-[3000ms] animate-ease-linear'>
