@@ -1,7 +1,6 @@
 import { Inicio } from './pages/Inicio.jsx'
 
-import WhatsappButton from './components/SocialButon.jsx';
-
+import SocialButtons from './components/SocialButon.jsx'
 
 const App = () => {
   return (
