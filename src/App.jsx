@@ -1,6 +1,6 @@
 import { Inicio } from './pages/Inicio.jsx'
 
-import WhatsappButton from './components/BoWhats.jsx';
+import WhatsappButton from './components/SocialButon.jsx';
 
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
     
 
   <div>
-      <WhatsappButton />
+      <SocialButtons />
       <Inicio />
     </div>
   
