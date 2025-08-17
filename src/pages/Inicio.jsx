@@ -12,6 +12,8 @@ export const Inicio = () => {
 
     return (
         <>
+      
+
             <Header />
             <main className='w-[100%] max-w-[1200px] text-neutral-900 mx-auto my-10  '>
 
