@@ -25,6 +25,11 @@ const items = [
         <div className="w-full h-50 rounded-sm overflow-hidden">
             <img src={imagenesCarrusel.img5} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onDragStart={handleDragStart} alt="Imagen grupal batucada filhos de samba" />
         </div>
+    </div>,
+    <div className="px-1">
+        <div className="w-full h-50 rounded-sm overflow-hidden">
+            <img src={imagenesCarrusel.img9} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onDragStart={handleDragStart} alt="Imagen grupal batucada filhos de samba" />
+        </div>
     </div>
 ]
 

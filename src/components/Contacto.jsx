@@ -22,14 +22,21 @@ export const Contacto = () => {
                             autoPlay
                             muted
                             loop
-                            playsInline src={videos.CantoF} alt="" className="w-full h-full object-cover"
+                            playsInline src={videos.zanqueroDos} alt="" className="w-full h-full object-cover transition-transform duration-500 hover:scale-120"
                         />
                     </div>
                     <div className="col-span-2 rounded-sm overflow-hidden  ">
-                        <img src={imagenes.img3} alt="foto grupal de la batucada" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                        <img src={imagenes.img1} alt="" className=" hover:scale-110 w-full h-full object-cover transition-transform duration-500 " />
+                        {/* <img src={imagenes.img3} alt="foto grupal de la batucada" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" /> */}
                     </div>
                     <div className="  col-span-2 row-span-2 rounded-sm  bg-gray-600 overflow-hidden">
-                        <img src={imagenes.img1} alt="" className=" hover:scale-110 w-full h-full object-cover transition-transform duration-500 " />
+
+                        <video
+                            autoPlay
+                            muted
+                            loop
+                            playsInline src={videos.bailarina} alt="" className="w-full h-full object-cover transition-transform duration-500 hover:scale-120"
+                        />
                     </div>
 
                 </div>

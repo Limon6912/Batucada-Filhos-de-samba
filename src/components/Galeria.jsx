@@ -1,5 +1,5 @@
 import { VideoGaleria } from './VideoGaleria.jsx'
-import { videos } from '../components/Imagenes.jsx'
+import { imagenes, videos } from '../components/Imagenes.jsx'
 
 export const Galeria = () => {
     return (
@@ -13,17 +13,19 @@ export const Galeria = () => {
 
                 <div className="overflow-hidden sm:rounded-sm rounded-l-sm ">
                     <VideoGaleria src={videos.sanRoman} alt="Video de evento batucada filhos de samba" />
+                    {/* <img src={imagenes.img3} alt="" className='w-full h-full object-cover aspect-square transition-transform duration-500 hover:scale-110 ' /> */}
 
                 </div>
                 <div className="overflow-hidden sm:rounded-sm row-span-2 hidden lg:block">
                     <VideoGaleria src={videos.CantoF} alt="Video de evento batucada filhos de samba" />
                 </div>
                 <div className="overflow-hidden sm:rounded-sm   hidden lg:block">
-                    <img
-                        src={videos.quiensomos}
+                    {/* <img
+                        src={imagenes.img9}
                         alt="Foto grupal de la batucada filhos de samba"
                         className="w-full h-full object-cover aspect-square transition-transform duration-500 hover:scale-110"
-                    />
+                    /> */}
+                    <VideoGaleria src={videos.trompeta} alt="Video de evento batucada filhos de samba" />
                 </div>
                 <div className="overflow-hidden sm:rounded-sm  col-span-3 lg:col-span-2 ">
                     <VideoGaleria src={videos.caballito} alt="Video de evento batucada filhos de samba" />
