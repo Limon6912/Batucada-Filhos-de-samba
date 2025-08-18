@@ -22,7 +22,7 @@ export const paquetes = [
     {
         id: 4,
         urlImg: imagenes.img5,
-        titulo: "Paquete Cuartro",
+        titulo: "Paquete Cuatro",
         description: [
             "3 Zanqueros",
             "3 Animadores",
