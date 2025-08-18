@@ -8,7 +8,7 @@ const SocialButtons = () => {
   return (
     <div style={styles.container}>
       <a
-        href="https://www.facebook.com/samnbahilos"
+        href="https://www.facebook.com/filhosdesamba"
         target="_blank"
         rel="noopener noreferrer"
         style={{ ...styles.button, backgroundColor: '#3b5998' }}
@@ -18,7 +18,7 @@ const SocialButtons = () => {
       </a>
 
       <a
-        href="https://www.instagram.com/sambahilos"
+        href="https://www.instagram.com/Batucada_FDS"
         target="_blank"
         rel="noopener noreferrer"
         style={{ ...styles.button, backgroundColor: '#E1306C' }}
