@@ -10,11 +10,7 @@ const items = [
             <img src={imagenesCarrusel.img1} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onDragStart={handleDragStart} alt="Imagen grupal batucada filhos de samba" />
         </div>
     </div>,
-    // <div className="px-1">
-    //     <div className="w-full h-50 rounded-sm overflow-hidden">
-    //         <img src={img2} className="w-full h-full object-cover" onDragStart={handleDragStart} alt="Imagen 2" />
-    //     </div>
-    // </div>,
+
     <div className="px-1">
         <div className="w-full h-50 rounded-sm overflow-hidden">
             <img src={imagenesCarrusel.img3} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onDragStart={handleDragStart} alt="Imagen grupal batucada filhos de samba" />
@@ -42,12 +38,10 @@ export const Carrusel = () => {
     return (
         <div className='w-[95%] lg:w-full   mx-auto my-30 '>
             <AliceCarousel
-
                 mouseTracking
                 autoPlay
                 infinite
                 responsive={responsive}
-
                 animationType="fade" // 
                 animationDuration={3000}
                 animationEasingFunction="ease"
