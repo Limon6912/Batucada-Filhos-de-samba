@@ -11,23 +11,23 @@ export const Galeria = () => {
 
             <div className="grid grid-cols-3 grid-rows-9 gap-4 max-h-[850px]">
 
-                <div className="sm:rounded-sm overflow-hidden col-span-2 row-span-3 ">
+                <div className="sm:rounded-sm overflow-hidden col-span-2 row-span-3 rounded-r-sm ">
                     <VideoGaleria src={videos.Corriendo} alt="Video de evento batucada filhos de samba" />
                 </div>
 
-                <div className="sm:rounded-sm overflow-hidden row-span-4 col-start-3">
+                <div className="sm:rounded-sm overflow-hidden row-span-4 col-start-3 rounded-l-sm">
                     <VideoGaleria src={videos.sanRoman} alt="Video de evento batucada filhos de samba" />
                 </div>
 
-                <div className="sm:rounded-sm overflow-hidden  col-span-2 row-span-3 row-start-4">
+                <div className="sm:rounded-sm overflow-hidden  col-span-2 row-span-3 row-start-4  sm:col-span-1 sm:row-span-6 rounded-r-sm">
                     <VideoGaleria src={videos.caballito} alt="Video de evento batucada filhos de samba" />
                 </div>
 
-                <div className="sm:rounded-sm overflow-hidden  col-span-2 row-span-3 col-start-1 row-start-7" >
+                <div className="sm:rounded-sm overflow-hidden  col-span-2  row-span-3 col-start-1 row-start-7 sm:col-span-1 sm:row-start-4 sm:row-span-6 rounded-r-sm" >
                     <VideoGaleria src={videos.trompeta} alt="Video de evento batucada filhos de samba" />
                 </div>
 
-                <div className="sm:rounded-sm overflow-hidden row-span-5 col-start-3 row-start-5">
+                <div className="sm:rounded-sm overflow-hidden row-span-5 col-start-3 row-start-5 rounded-l-sm">
                     <VideoGaleria src={videos.CantoF} alt="Video de evento batucada filhos de samba" />
                 </div>
 
