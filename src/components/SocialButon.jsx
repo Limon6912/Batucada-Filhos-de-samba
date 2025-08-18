@@ -1,66 +1,41 @@
-import React from 'react';
+
 import { FaWhatsapp, FaInstagram, FaFacebookF } from 'react-icons/fa';
 
+import { LinkRedesSociales } from './LinkRedesSociales'
+
 const SocialButtons = () => {
-  const phoneNumber = '1234567890'; 
+  const phoneNumber = '1234567890';
   const message = 'Hola, quiero más información';
+  const sizeIcon = 25
 
   return (
-    <div style={styles.container}>
-      <a
-        href="https://www.facebook.com/filhosdesamba"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ ...styles.button, backgroundColor: '#3b5998' }}
-        aria-label="Facebook"
-      >
-        <FaFacebookF size={20} />
-      </a>
+    <div className='fixed sm:bottom-[60px] sm:right-[60px] flex sm:flex-col sm:gap-3 z-30000 justify-center bottom-0 w-full sm:w-auto'>
 
-      <a
+      <LinkRedesSociales href="https://www.facebook.com/filhosdesamba" target="_blank" color="bg-[#3b5998]">
+        <FaFacebookF size={sizeIcon} />
+      </LinkRedesSociales>
+
+
+      <LinkRedesSociales
+        color="bg-[#E1306C]"
         href="https://www.instagram.com/Batucada_FDS"
         target="_blank"
-        rel="noopener noreferrer"
-        style={{ ...styles.button, backgroundColor: '#E1306C' }}
         aria-label="Instagram"
       >
-        <FaInstagram size={20} />
-      </a>
+        <FaInstagram size={sizeIcon} />
+      </LinkRedesSociales>
 
-      <a
+      <LinkRedesSociales
+        color="bg-[#075e54]"
         href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}
         target="_blank"
-        rel="noopener noreferrer"
-        style={{ ...styles.button, backgroundColor: '#25D366' }}
         aria-label="WhatsApp"
       >
-        <FaWhatsapp size={20} />
-      </a>
+        <FaWhatsapp size={sizeIcon} />
+      </LinkRedesSociales>
     </div>
   );
 };
 
-const styles = {
-  container: {
-    position: 'fixed',
-    bottom: '20px',
-    right: '20px',
-    display: 'flex',
-    flexDirection: 'column-reverse',
-    gap: '10px',
-    zIndex: 1000,
-  },
-  button: {
-    color: 'white',
-    borderRadius: '50%',
-    padding: '12px',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-    textDecoration: 'none',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    transition: 'transform 0.2s ease-in-out',
-  },
-};
 
 export default SocialButtons;

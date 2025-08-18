@@ -7,7 +7,7 @@ const handleDragStart = (e) => e.preventDefault()
 const items = [
     <div className="px-1">
         <div className="w-full h-50 rounded-sm overflow-hidden">
-            <img src={imagenesCarrusel.img1} className="w-full h-full object-cover" onDragStart={handleDragStart} alt="Imagen 1" />
+            <img src={imagenesCarrusel.img1} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onDragStart={handleDragStart} alt="Imagen 1" />
         </div>
     </div>,
     // <div className="px-1">
@@ -17,17 +17,17 @@ const items = [
     // </div>,
     <div className="px-1">
         <div className="w-full h-50 rounded-sm overflow-hidden">
-            <img src={imagenesCarrusel.img3} className="w-full h-full object-cover" onDragStart={handleDragStart} alt="Imagen 3" />
+            <img src={imagenesCarrusel.img3} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onDragStart={handleDragStart} alt="Imagen 3" />
         </div>
     </div>,
     <div className="px-1">
         <div className="w-full h-50 rounded-sm overflow-hidden">
-            <img src={imagenesCarrusel.img4} className="w-full h-full object-cover" onDragStart={handleDragStart} alt="Imagen 3" />
+            <img src={imagenesCarrusel.img4} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onDragStart={handleDragStart} alt="Imagen 3" />
         </div>
     </div>,
     <div className="px-1">
         <div className="w-full h-50 rounded-sm overflow-hidden">
-            <img src={imagenesCarrusel.img5} className="w-full h-full object-cover" onDragStart={handleDragStart} alt="Imagen 3" />
+            <img src={imagenesCarrusel.img5} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onDragStart={handleDragStart} alt="Imagen 3" />
         </div>
     </div>
 ]
