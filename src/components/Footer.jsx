@@ -7,7 +7,7 @@ export const Footer = () => {
                     <h3 className="mb-3 text-3xl font-bold">Contacto</h3>
                     <ol>
 
-                        {/* <li>Correo: ejemplo@gmail.com</li> */}
+                        <li>Correo: desambafilhos@gmail.com</li>
                         <li>Whatsapp: 271 173 97 68</li>
                         <li>Facebook: Batucada Filhos De Samba</li>
                         <li>Instagram: Batucada_FDS</li>

@@ -16,9 +16,10 @@ export const Header = () => {
                 loop
                 playsInline
                 className="w-full h-[75vh] object-cover object-center blur-sm scale-110"
+                src={videos.videoFondo}
+                alt="Video principal de la pagina batucada filhos de samba"
             >
-                <source src={videos.videoFondo} type="video/mp4" />
-                Tu navegador no soporta el elemento de video.
+
             </video>
         </header>
     );

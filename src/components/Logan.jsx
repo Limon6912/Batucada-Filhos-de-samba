@@ -8,7 +8,7 @@ export const Logan = () => {
                     <img src={imagenes.img7} alt="imagen de zanquero " className='w-full h-full object-cover scale-130 hover:scale-140 transition-transform duration-500' />
                 </div>
                 <div className='h-100 w-full overflow-hidden'>
-                    <img src={imagenes.zanqueroL} alt="" className='w-full h-full object-cover rounded-sm transition-transform duration-500 hover:scale-110 ' />
+                    <img src={imagenes.zanqueroL} alt="imagen de zanquero de la batucada filhos de samba" className='w-full h-full object-cover rounded-sm transition-transform duration-500 hover:scale-110 ' />
                 </div>
             </div>
 
@@ -21,7 +21,7 @@ export const Logan = () => {
                 </div>
 
                 <div className='w-25 h-25 z-50 top-[-50px] absolute rounded-full overflow-hidden  animate-bounce animate-infinite animate-duration-[3000ms] animate-ease-linear'>
-                    <img src={imagenes.bufon} alt="" className='w-full h-full object-cover ' />
+                    <img src={imagenes.bufon} alt="foto grupal de la batuacada fihilos de samba" className='w-full h-full object-cover ' />
                 </div>
             </div>
         </div>
