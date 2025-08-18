@@ -2,7 +2,7 @@
 export const Footer = () => {
     return (
         <footer className="  bg-neutral-950 ">
-            <section className="w-full  max-w-[1000px] m-auto flex justify-center sm:items-start  gap-8 sm:justify-between flex-col md:flex-row items-center py-20 list-none px-10">
+            <section className="w-full  max-w-[1000px] m-auto flex justify-center sm:items-start  gap-8 sm:justify-between flex-col md:flex-row items-center py-20 list-none px-5">
                 <div className=" mb-3 w-full text-center sm:text-left">
                     <h3 className="mb-3 text-3xl font-bold">Contacto</h3>
                     <ol>

@@ -4,8 +4,8 @@ import { FaWhatsapp, FaInstagram, FaFacebookF } from 'react-icons/fa';
 import { LinkRedesSociales } from './LinkRedesSociales'
 
 const SocialButtons = () => {
-  const phoneNumber = '1234567890';
-  const message = 'Hola, quiero más información';
+  const phoneNumber = '2711739768';
+  const message = 'Hola, quiero más información ';
   const sizeIcon = 25
 
   return (
